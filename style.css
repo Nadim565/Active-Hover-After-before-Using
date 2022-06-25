@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    height: 600px;
+    width: 90%;
+    border: 1px solid red;
+    margin: 20px auto;
+    background-image: linear-gradient( to left, hotpink, blue);
+}
+
+.box-one {
+    height: 300px;
+    width: 60%;
+    background-image: linear-gradient( to left, white, teal);
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 20px;
+    box-shadow: 8px 9px 7px 10px pink;
+}
+
+.box-one:hover {
+    background-color: red;
+    box-shadow: 8px 9px 7px 10px hotpink;
+}
+
+.box-two {
+    height: 100%;
+    width: 60%;
+    /* background-color: chartreuse; */
+    text-align: center;
+    margin: auto;
+}
+
+.box-three {
+    height: 100px;
+    width: 80%;
+    /* background-color: beige; */
+    margin: auto;
+    padding-top: 120px;
+}
+
+.text {
+    height: 130px;
+    width: 100%;
+    background-color: hotpink;
+}
+
+.text:hover {
+    background-color: teal;
+}
+
+.text h2 {
+    font-size: 25px;
+    color: red;
+    padding-top: 10px;
+}
+
+.text h2::after {
+    content: ' Md Nadim.';
+    color: white;
+    font-style: italic;
+}
+
+.text h3::before {
+    content: 'For ';
+    font-style: italic;
+    color: honeydew;
+}
+
+.text h3::after {
+    content: ' Please';
+    color: aqua;
+    font-style: italic;
+}
+
+h3 {
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+
+.text a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: antiquewhite;
+    /* border-radius: 20px 0px 20px 0px; */
+    border-radius: 50%;
+}
+
+.text a:active {
+    color: red;
+}
+
+.text a:focus {
+    color: white;
+    font-size: 20px;
+}
+
+.text a:hover {
+    background-color: red;
+}
